@@ -11,6 +11,7 @@ public class AnalyticsCounter2 {
      * @author christine zerrouk
      * @version 1.0
      */
+
     public static void main(String[] args) {
         List<String> result;
         TreeMap<String, Integer> symptomList = new TreeMap<String, Integer>();
@@ -20,7 +21,7 @@ public class AnalyticsCounter2 {
         ReadSymptomDataFromFile myreader = new ReadSymptomDataFromFile("C:/Users/Personne/Desktop/openclassrooms/Projet1/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application/Project02Eclipse/symptoms.txt");
 
         // create an instance of OpenSymptomDataToFile
-        WriteSymptomToFile myFile = new WriteSymptomToFile("C:/Users/Personne/Desktop/openclassrooms/Projet1/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application/Project02Eclipse/result.txt");
+        WriteSymptomToFile myFile = new WriteSymptomToFile("C:/Users/Personne/Desktop/openclassrooms/Projet1/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application/Project02Eclipse/results.out");
 
         // open the file in output
         FileWriter myWriter = myFile.OpenSymptomDataToFile();
