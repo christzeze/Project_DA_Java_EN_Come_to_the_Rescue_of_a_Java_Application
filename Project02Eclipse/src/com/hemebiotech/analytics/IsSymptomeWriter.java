@@ -1,6 +1,7 @@
 package com.hemebiotech.analytics;
 
 import java.io.FileWriter;
+import java.util.TreeMap;
 
 
 /**
@@ -14,16 +15,12 @@ import java.io.FileWriter;
 public interface IsSymptomeWriter {
 
     /**
-     * @param "writer" FileWriter give by OpenSymptomDataToFile
-     * @param "key"    key of dictionnary give by the main programm
-     * @param "value"  value of dictionnary give by the main programm
-     * @return OpenSymptomDataToFile return the FileWriter for the output file
+     * @param "symptomList" dictionnary give by the main programm
+     * @return OpenResultFile return the FileWriter for the output file
      */
 
-    FileWriter OpenSymptomDataToFile();
+    FileWriter OpenResultFile();
 
-    void WriteSymptomData(FileWriter writer, String key, int value);
-
-    void CloseSymptomDateFile(FileWriter writer);
+    void WriteSymptomData(TreeMap symptomList);
 
 }
