@@ -9,7 +9,6 @@ public class SymptomsFileDataCounter implements ICounter {
     public Map<String, Long> count(List<String> symptoms) {
         Map<String, Long> result = new TreeMap<>();
         for (String symptom : symptoms) {
-
             if (result.containsKey(symptom)) {
                result.put(symptom, result.get(symptom) + 1L);
             } else {

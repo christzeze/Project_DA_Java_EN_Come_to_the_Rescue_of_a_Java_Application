@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-    /**
-     * Son Role c'est de persister les symptomes dans un fichier csv
-     */
+/**
+ * Son Role c'est de persister les symptomes dans un fichier csv
+ */
 public class SymptomsWriter implements IWriter {
     @Override
     public void write(Map<String, Long> countedSymptoms) {

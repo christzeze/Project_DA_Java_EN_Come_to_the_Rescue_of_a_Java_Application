@@ -23,6 +23,6 @@ public class AnalyticsCounter {
         Map<String, Long> counts = counter.count(symptoms);
 
         IWriter writer = new SymptomsWriter();
-        writer.write(counts);
+            writer.write(counts);
     }
 }
