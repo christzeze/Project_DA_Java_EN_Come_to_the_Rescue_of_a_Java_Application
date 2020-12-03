@@ -1,11 +1,11 @@
 package hemebiotech;
 
-import hemebiotech.Counter.ISymptomsCounter;
-import hemebiotech.Counter.SymptomsFileDataCounter;
-import hemebiotech.Reader.ISymptomReader;
-import hemebiotech.Reader.SymptomsFileReader;
-import hemebiotech.Writer.IsSymptomeWriter;
-import hemebiotech.Writer.SymptomsFileWriter;
+import hemebiotech.counter.SymptomsFileDataCounter;
+import hemebiotech.reader.ISymptomReader;
+import hemebiotech.reader.SymptomsFileReader;
+import hemebiotech.writer.IsSymptomeWriter;
+import hemebiotech.writer.SymptomsFileWriter;
+import hemebiotech.counter.ISymptomsCounter;
 
 import java.util.List;
 import java.util.TreeMap;
