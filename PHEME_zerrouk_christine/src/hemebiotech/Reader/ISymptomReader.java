@@ -1,4 +1,4 @@
-package hemebiotech.Reader;
+package hemebiotech.reader;
 
 import java.util.List;
 

@@ -1,6 +1,5 @@
-package hemebiotech.Writer;
+package hemebiotech.writer;
 
-import java.io.FileWriter;
 import java.util.TreeMap;
 
 
@@ -10,12 +9,6 @@ import java.util.TreeMap;
  */
 
 public interface IsSymptomeWriter {
-
-    /**
-     * @param "symptomList" dictionnary récupéré dans la méthode main et généré par SymptomsFileDataCounter
-     */
-
-    FileWriter OpenResultFile(String filepath);
 
     void write(TreeMap symptomList);
 

@@ -1,4 +1,4 @@
-package hemebiotech.Reader;
+package hemebiotech.reader;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -15,7 +15,7 @@ public class SymptomsFileReader implements ISymptomReader {
     private BufferedReader reader;
 
     public List<String> readSymptoms(String filepath) {
-        List<String> result = new ArrayList<String>();
+        List<String> result = new ArrayList<>();
         if (filepath != null) {
             try (BufferedReader reader = new BufferedReader(new FileReader(filepath))) {
                 // lit la première ligne du fichier
@@ -28,7 +28,7 @@ public class SymptomsFileReader implements ISymptomReader {
                     line = reader.readLine();
                 }
             } catch (IOException e) {
-                e.printStackTrace();
+                throw new ReaderException("Erreur lors de la lecture du fichier" + filepath, e);
             }
         }
         return result;
