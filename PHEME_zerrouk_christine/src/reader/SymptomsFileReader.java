@@ -1,4 +1,4 @@
-package hemebiotech.reader;
+package reader;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -10,7 +10,7 @@ import java.util.List;
  * Son rôle est de lire les symptomes à partir du fichier "Symptoms.txt"
  */
 
-public class SymptomsFileReader implements ISymptomReader {
+public class SymptomsFileReader implements ISymptomsReader {
     private String fileName;
     private BufferedReader reader;
 

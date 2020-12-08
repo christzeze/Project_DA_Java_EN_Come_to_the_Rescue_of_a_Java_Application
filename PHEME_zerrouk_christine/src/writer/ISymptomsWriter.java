@@ -1,4 +1,4 @@
-package hemebiotech.writer;
+package writer;
 
 import java.util.TreeMap;
 
@@ -8,7 +8,7 @@ import java.util.TreeMap;
  * Le paramètre définit le dictionnaire en entrée qui contient les symptômes comptés
  */
 
-public interface IsSymptomeWriter {
+public interface ISymptomsWriter {
 
     void write(TreeMap symptomList);
 
