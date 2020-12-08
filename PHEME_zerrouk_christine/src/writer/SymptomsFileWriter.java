@@ -1,4 +1,4 @@
-package hemebiotech.writer;
+package writer;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.TreeMap;
  * Son rôle est d'écrire dans un fichier csv, le dictionnaire des symptômes comptés grâce à la classe SymptomsFileDateCounter
  */
 
-public class SymptomsFileWriter implements IsSymptomeWriter {
+public class SymptomsFileWriter implements ISymptomsWriter {
     //private final String fileName;
     private String myKey;
     private int myValue;
