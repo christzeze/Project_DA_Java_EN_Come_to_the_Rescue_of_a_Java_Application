@@ -17,7 +17,7 @@ public class SymptomsFileReader implements ISymptomsReader {
     public List<String> readSymptoms(String filepath) {
         List<String> result = new ArrayList<>();
         if (filepath != null) {
-                try (BufferedReader reader = new BufferedReader(new FileReader(filepath))) {
+          try (BufferedReader reader = new BufferedReader(new FileReader(filepath))) {
                 // lit la première ligne du fichier
                 String line = reader.readLine();
 

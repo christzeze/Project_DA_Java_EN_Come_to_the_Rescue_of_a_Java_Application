@@ -26,6 +26,7 @@ Le package writer est structuré de la même façon que le package reader autour
 
 ## Installation
 
+
 * Créer les fichiers class avec la commande javac (javac AnalyticsCounter.java reader/\*.java counter/\*.java writer/\*.java)
 
 * Créer un nouveau dossier et copier les fichiers class créés par javac dans ce dossier en gardant l'arborescence (reader, counter et writer)
