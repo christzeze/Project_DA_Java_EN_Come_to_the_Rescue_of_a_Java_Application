@@ -1,4 +1,4 @@
-package hemebiotech.writer;
+package writer;
 
 public class WriterException extends RuntimeException {
     public WriterException(String message, Throwable cause) {

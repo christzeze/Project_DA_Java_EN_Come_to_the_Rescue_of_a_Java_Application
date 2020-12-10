@@ -1,4 +1,4 @@
-package hemebiotech.counter;
+package counter;
 
 import java.util.List;
 import java.util.TreeMap;
