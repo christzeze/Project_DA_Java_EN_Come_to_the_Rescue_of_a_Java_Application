@@ -11,7 +11,7 @@ Le projet est en béta test. Il est terminé mais n'a pas subit de tests utilisa
 
 ## Environnement de développement
 
-Le projet a été développé en java en utilisant l'IDE Intellij.	
+Le projet a été développé en java 11 en utilisant l'IDE Intellij.	
 
 ## Structure du programme
 
@@ -26,12 +26,12 @@ Le package writer est structuré de la même façon que le package reader autour
 
 ## Installation
 
-Créer les fichiers class avec la commande javac (javac AnalyticsCounter.java reader/\*.java counter/\*.java writer/\*.java)
+* Créer les fichiers class avec la commande javac (javac AnalyticsCounter.java reader/\*.java counter/\*.java writer/\*.java)
 
-Créer un nouveau dossier et copier les fichiers class créés par javac dans ce dossier en gardant l'arborescence (reader, counter et writer)
+* Créer un nouveau dossier et copier les fichiers class créés par javac dans ce dossier en gardant l'arborescence (reader, counter et writer)
 
-Créer un fichier MANIFEST.MF contenant la ligne suivante "Main-Class: AnalyticsCounter" (sans les guillemets) suivie d'un retour à la ligne
+* Créer un fichier MANIFEST.MF contenant la ligne suivante "Main-Class: AnalyticsCounter" (sans les guillemets) suivie d'un retour à la ligne
 
-En ligne de commande sous windows cmd, tapez jar cvmf MANIFEST.MF analyticsCounter.jar \*.class reader/\*.class counter/\*.class writer/\*.class symptoms.txt
+* En ligne de commande sous windows cmd, tapez jar cvmf MANIFEST.MF analyticsCounter.jar \*.class reader/\*.class counter/\*.class writer/\*.class symptoms.txt
 
-Exécuter le programme en saisissant toujours en ligne de commande java -jar AnalyticsCounter.jar
+* Exécuter le programme en saisissant toujours en ligne de commande java -jar AnalyticsCounter.jar
